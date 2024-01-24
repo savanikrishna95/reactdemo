@@ -14,17 +14,17 @@ root.render(
   <BrowserRouter>
     <Provider store={store}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Products />} />
-        <Route path="/product/:id" element={<Product />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/reactdemo" element={<Home />} />
+        <Route path="/reactdemo/product" element={<Products />} />
+        <Route path="/reactdemo/product/:id" element={<Product />} />
+        <Route path="/reactdemo/about" element={<AboutPage />} />
+        <Route path="/reactdemo/contact" element={<ContactPage />} />
+        <Route path="/reactdemo/cart" element={<Cart />} />
+        <Route path="/reactdemo/login" element={<Login />} />
+        <Route path="/reactdemo/register" element={<Register />} />
+        <Route path="/reactdemo/checkout" element={<Checkout />} />
         <Route path="*" element={<PageNotFound />} />
-        <Route path="/product/*" element={<PageNotFound />} />
+        <Route path="/reactdemo/product/*" element={<PageNotFound />} />
       </Routes>
     </Provider>
   </BrowserRouter>

@@ -92,7 +92,7 @@ const Products = () => {
                   alt="Card"
                   height={300}
                 />
-                <div className="card-body">
+                <div className="card-body card-bodytest">
                   <h5 className="card-title">
                     {product.title.substring(0, 12)}...
                   </h5>
